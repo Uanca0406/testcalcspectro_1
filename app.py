@@ -11,7 +11,10 @@
         .glassmorphism {
             background: rgba(255, 255, 255, 0.25);
             backdrop-filter: blur("10px");
+            css_style = """
             border: 1px solid rgba(255, 255, 255, 0.18);
+            """
+   
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
         }
         .table-container {
